@@ -25,5 +25,14 @@
   },
   "devDependencies": {
     "jest": "^25.1.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/smithfamily42/mvcTechBlog.git"
+  },
+  "keywords": [],
+  "bugs": {
+    "url": "https://github.com/smithfamily42/mvcTechBlog/issues"
+  },
+  "homepage": "https://github.com/smithfamily42/mvcTechBlog#readme"
 }
