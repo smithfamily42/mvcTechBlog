@@ -9,6 +9,7 @@ This is a web based product. You can visit it at https://bradtechblog.herokuapp.
 
 ### Usage
 You can view posts from the home page. You will need to login and create an account to be able to comment or vote.
+![screenshot](public/assets/screenshot.png)
 
 ### Credits
 I did this.
