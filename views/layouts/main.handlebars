@@ -10,29 +10,31 @@
 
 <body>
   <div class="wrapper">
-    <header>
-      <h1>
-        <a href="/">Brad's Tech Blog</a>
-      </h1>
-<nav>
-  {{#if loggedIn}}
-  <a href="/dashboard">dashboard</a>
-  <button id="logout" class="btn-no-style">logout</button>
-  {{else}}
-  <a href="/login">login</a>
-  {{/if}}
-</nav>
-    </header>
+
     <main>
+      <header>
+        <h1>
+          <a href="/">Brad's Tech Blog</a>
+        </h1>
+        <nav>
+          {{#if loggedIn}}
+          <a class="navlink" href="/">Home page</a>
+          <a class="navlink" href="/dashboard">Dashboard</a>
+          <button id="logout" class="btn-no-style">Logout</button>
+          {{else}}
+          <a href="/login">Login</a>
+          {{/if}}
+        </nav>
+      </header>
       {{{ body }}}
     </main>
     <footer>
       &copy; 2021 Brad Smith
     </footer>
   </div>
-{{#if loggedIn}}
-<script src="/javascript/logout.js"></script>
-{{/if}}
+  {{#if loggedIn}}
+  <script src="/javascript/logout.js"></script>
+  {{/if}}
 </body>
 
 </html>
